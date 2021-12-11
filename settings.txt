@@ -1,0 +1,5 @@
+STUDENTS_PATH= "students.csv"
+TEACHERS_PATH= "teachers.csv"
+COURSES_PATH= "courses.csv"
+LOAD_TYPE= "HARDCODED"
+DISPLAY_TYPE= "CONSOLE"

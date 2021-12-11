@@ -1,18 +1,19 @@
 package schoolapp;
 
+import java.util.ArrayList;
+//import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
-public class DataManager {
+public class HardcodedDataManager implements iDataLoader {
 	public CoursesManager manager = new CoursesManager();
-	// Obiectul rand genereaza numere aleatorii. Folosit in programul de testare
 	public Random rand = new Random();
 	public int minimumRequiredStudents = 5;
 	public Student[] dataSetOfStudent = createStudentsData();
 	public Teacher[] dataSetOfTeacher = createTeacherData();
 	
-	public DataManager() {
+	public HardcodedDataManager() {
 		this.createCoursesData();
 	}
 	
@@ -51,16 +52,17 @@ public class DataManager {
 		return setOfStudents;
 	}
 	
-	public void createCoursesData() {
+	public Course[] createCoursesData() {
 		String course[] = { "Teoria sistemelor", "Masurari electronice", "Dispozitive electronice", "Structuri de date", "Procesarea semnalelor", "Limba engleza", "Limbaje formale", "PCLP 1", "PCLP 2" };
 		String description = "course description";
-		
+		ArrayList<Course> courses = new ArrayList<>();
 		for (String CourseName : course) {
 			Set<Student> studentsData = createRandomSetOfStudents();
 			Teacher tch = dataSetOfTeacher[rand.nextInt(dataSetOfTeacher.length)];
 			Course c = new Course(CourseName, description, tch, studentsData);
-			manager.AddCourse(c);
+			courses.add(c);
 		}
+		return courses.toArray(new Course[courses.size()]);
 	}
 	
 	public void gradeStudents() {
@@ -74,4 +76,5 @@ public class DataManager {
 			}
 		}
 	}
+
 }

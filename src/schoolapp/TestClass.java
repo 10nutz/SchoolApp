@@ -5,31 +5,25 @@ package schoolapp;
 //import java.util.Map;
 //import java.util.Collections;
 
+enum LOAD_TYPE {
+	HARDCODED, KEYBOARD,FILE
+}
+
+enum DISPLAY_TYPE{
+	CONSOLE, FILE, GUI
+}
 public class TestClass {	
 	public static void main(String[] args) {
-		DataManager dataManager = new DataManager();
-		
-		dataManager.gradeStudents();
-		dataManager.manager.reportAllCourses();
-		dataManager.manager.reportAllStudentsGrades();
-		dataManager.manager.reportAllCourses();
-		try {
-			dataManager.manager.RemoveCourse(new Course("PLCP 1"));
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-		
-		System.out.println("Dupa stergere:");
-		dataManager.manager.reportAllCourses();
-		
-		dataManager.manager.reportAllStudentsGrades();
-		
-		try {
-			dataManager.manager.EditCourse(new Course("Limba engleza"), new Course("Limba engleza II", "descriere", new Teacher("ANA", "MARIA"), dataManager.createRandomSetOfStudents()));
-			dataManager.manager.reportAllCourses();
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-		
+ 		/*Settings.initApplication();
+ 		iDataLoader dataloader = Settings.loadType == LOAD_TYPE.HARDCODED ? new HardcodedDataManager() : new FileDataManager();
+ 		
+ 		Teacher[] tchs = dataloader.createTeacherData();
+ 		for(Teacher t:tchs) {
+ 			System.out.println(t);
+ 		}*/
+		Settings.initApplication();
+		iDisplayManager displayManager = Settings.displayHashMap.get(Settings.displayType);
+		iDataLoader dataManager = Settings.dataLoaderHashMap.get(Settings.loadType);
+		//displayManager.displayStudents(dataManager.createStudentsData());
 	}
 }
