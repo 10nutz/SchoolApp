@@ -5,13 +5,13 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Course {
-	String name;
-	String description;
-	Teacher teacher;
-	Set<Student> students;
-	HashMap<Student, Integer> grades;
+	public String name;
+	public String description;
+	public Teacher teacher;
+	public Set<Student> students;
+	public HashMap<Student, Integer> grades;
 
-	// Adaugarea profesorului se face in constructor
+	public Course() {}
 	public Course(String name, String descr, Teacher tch, Set<Student> stud) {
 		this.name = name;
 		this.description = descr;
@@ -25,6 +25,10 @@ public class Course {
 		this.students = new HashSet<Student>();
 	}
 	
+	public Course(String name, String description) {
+		this.name = name;
+		this.description = description;
+	}
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -82,7 +86,7 @@ public class Course {
 
 	@Override
 	public String toString() {
-		String str = "Course: " + "name:" + name + ", description:" + description + ",\nteacher=" + teacher + ",\nstudents:\n";
+		String str = "\nCourse: " + "name:" + name + ", description:" + description + ",\n" + teacher + ",\n\tStudents:";
 		for (Student s : students) {
 			Integer StudentGrade = grades.get(s) != null ? grades.get(s) : 0; 
 			str += s + " " +  StudentGrade ;

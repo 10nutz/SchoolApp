@@ -2,8 +2,10 @@ package schoolapp;
 
 
 public class Teacher {
-	String first_name;
-	String second_name;
+	public String first_name;
+	public String second_name;
+	
+	public Teacher() {}
 	
 	public Teacher(String first_name, String second_name) {
 		this.first_name = first_name;

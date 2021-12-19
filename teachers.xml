@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="16.0.2" class="java.beans.XMLDecoder">
+ <array class="schoolapp.Teacher" length="11">
+  <void index="0">
+   <object class="schoolapp.Teacher" id="Teacher0">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher0"/>
+      <string>URSUTIU</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher0"/>
+      <string>DORU</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="schoolapp.Teacher" id="Teacher1">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher1"/>
+      <string>PANA</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher1"/>
+      <string>GHEORGHE</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="schoolapp.Teacher" id="Teacher2">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher2"/>
+      <string>ALEXANDRU</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher2"/>
+      <string>MARIAN</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="3">
+   <object class="schoolapp.Teacher" id="Teacher3">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher3"/>
+      <string>CRETU </string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher3"/>
+      <string>NICOLAE CONSTANTIN</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="4">
+   <object class="schoolapp.Teacher" id="Teacher4">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher4"/>
+      <string>KRISTALY</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher4"/>
+      <string>DOMINIC</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="5">
+   <object class="schoolapp.Teacher" id="Teacher5">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher5"/>
+      <string>DANILA</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher5"/>
+      <string>ADRIAN</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="6">
+   <object class="schoolapp.Teacher" id="Teacher6">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher6"/>
+      <string>DEMETER</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher6"/>
+      <string>ROBERT</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="7">
+   <object class="schoolapp.Teacher" id="Teacher7">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher7"/>
+      <string>DIACONU</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher7"/>
+      <string>LAURENTIU</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="8">
+   <object class="schoolapp.Teacher" id="Teacher8">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher8"/>
+      <string>ILEA</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher8"/>
+      <string>GELU</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="9">
+   <object class="schoolapp.Teacher" id="Teacher9">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher9"/>
+      <string>POP</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher9"/>
+      <string>MIHAIL</string>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="10">
+   <object class="schoolapp.Teacher" id="Teacher10">
+    <void class="schoolapp.Teacher" method="getField">
+     <string>first_name</string>
+     <void method="set">
+      <object idref="Teacher10"/>
+      <string>BOER</string>
+     </void>
+    </void>
+    <void class="schoolapp.Teacher" method="getField">
+     <string>second_name</string>
+     <void method="set">
+      <object idref="Teacher10"/>
+      <string>ATTILA</string>
+     </void>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

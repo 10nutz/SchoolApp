@@ -1,5 +1,7 @@
 package schoolapp;
 
+import java.util.Scanner;
+
 //import java.util.ArrayList;
 //import java.util.HashMap;
 //import java.util.Map;
@@ -14,16 +16,21 @@ enum DISPLAY_TYPE{
 }
 public class TestClass {	
 	public static void main(String[] args) {
- 		/*Settings.initApplication();
- 		iDataLoader dataloader = Settings.loadType == LOAD_TYPE.HARDCODED ? new HardcodedDataManager() : new FileDataManager();
- 		
- 		Teacher[] tchs = dataloader.createTeacherData();
- 		for(Teacher t:tchs) {
- 			System.out.println(t);
- 		}*/
-		Settings.initApplication();
-		iDisplayManager displayManager = Settings.displayHashMap.get(Settings.displayType);
-		iDataLoader dataManager = Settings.dataLoaderHashMap.get(Settings.loadType);
-		//displayManager.displayStudents(dataManager.createStudentsData());
+ 	
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Username:");
+		var username = sc.next();
+		System.out.println("Password:");
+		var password = sc.next();
+		
+		try {
+			Application.getInstance().login(new User(username,password));
+			System.out.println(Application.getInstance().currentUser);
+			System.out.println(Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
 	}
 }

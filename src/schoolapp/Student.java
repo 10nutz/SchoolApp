@@ -3,9 +3,11 @@ package schoolapp;
 import schoolapp.Student;
 
 public class Student implements  java.lang.Comparable<Student>{
-	String first_name;
-	String second_name;
-	int group;
+	public String first_name;
+	public String second_name;
+	public int group;
+	
+	public Student() {}
 	
 	Student(String f_n, String s_n, int gr) {
 		this.first_name = f_n;

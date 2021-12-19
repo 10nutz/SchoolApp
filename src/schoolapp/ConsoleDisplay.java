@@ -4,22 +4,25 @@ public class ConsoleDisplay implements iDisplayManager {
 
 	@Override
 	public void displayStudents(Student[] students) {
-		for (Student s :
-            students) {
-        System.out.println(s);
-    }
+		for (Student s : students) {
+			System.out.print(s);
+		}
 	}
 
 	@Override
 	public void displayTeachers(Teacher[] teachers) {
-		 System.out.println(teachers);
-		
+		for (Teacher t : teachers) {
+			System.out.println(t);
+		}
+
 	}
 
 	@Override
 	public void displayCourses(Course[] courses) {
-		 System.out.println(courses);
-		
+		for (Course c : courses) {
+			System.out.println(c);
+		}
+
 	}
 
 }
