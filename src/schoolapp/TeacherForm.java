@@ -1,0 +1,11 @@
+package schoolapp;
+
+import javax.swing.*;
+
+public class TeacherForm {
+    public JPanel getPanel1() {
+        return panel1;
+    }
+
+    private JPanel panel1;
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="16.0.2" class="java.beans.XMLDecoder">
+<java version="17.0.1" class="java.beans.XMLDecoder">
  <object class="java.util.ArrayList">
   <void method="add">
    <object class="schoolapp.User" id="User0">
@@ -31,21 +31,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Oprea</string>
+            <string>Visoiu</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Ionut</string>
+            <string>Andrei</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student0"/>
-            <int>1</int>
+            <int>3</int>
            </void>
           </void>
          </object>
@@ -134,14 +134,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Rusu</string>
+            <string>Suciu</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Victor</string>
+            <string>Mihai</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
@@ -189,14 +189,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>BOER</string>
+            <string>DIACONU</string>
            </void>
           </void>
           <void class="schoolapp.Teacher" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>ATTILA</string>
+            <string>LAURENTIU</string>
            </void>
           </void>
          </object>
@@ -237,21 +237,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Silitra</string>
+            <string>Trifan</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Florin</string>
+            <string>Ioan</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student2"/>
-            <int>2</int>
+            <int>1</int>
            </void>
           </void>
          </object>

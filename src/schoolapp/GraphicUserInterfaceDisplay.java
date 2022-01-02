@@ -1,11 +1,16 @@
 package schoolapp;
 
+import javax.swing.*;
+import java.awt.*;
+
 public class GraphicUserInterfaceDisplay implements iDisplayManager{
 
 	@Override
 	public void displayStudents(Student[] students) {
-		// TODO Auto-generated method stub
-		
+		JTextArea studentsTextArea = new JTextArea();
+		for(Student s: students) {
+			studentsTextArea.add(new Label());
+		}
 	}
 
 	@Override

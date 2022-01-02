@@ -1,5 +1,6 @@
 package schoolapp;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 //import java.util.ArrayList;
@@ -17,8 +18,14 @@ enum DISPLAY_TYPE{
 public class TestClass {	
 	public static void main(String[] args) {
  	
-		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);
+		JFrame frame = new JFrame("Graphic User Interface");
+		LoginForm loginForm = new LoginForm(frame);
+		frame.setContentPane(loginForm.getMainPanel());
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.pack();
+		frame.setVisible(true);
+
+		/*Scanner sc = new Scanner(System.in);
 		System.out.println("Username:");
 		var username = sc.next();
 		System.out.println("Password:");
@@ -31,6 +38,8 @@ public class TestClass {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
+		*/
+
+
 	}
 }
