@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-14538708"/>
+    </properties>
     <border type="none"/>
     <children>
       <grid id="9f4b3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -13,7 +15,9 @@
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-14538708"/>
+        </properties>
         <border type="none"/>
         <children>
           <component id="8405" class="javax.swing.JLabel" binding="lblUsername">
@@ -21,7 +25,9 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Tahoma"/>
+              <background color="-986896"/>
+              <font name="Roboto Light"/>
+              <foreground color="-3355444"/>
               <text value="Username:"/>
             </properties>
           </component>
@@ -31,7 +37,10 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <enabled value="true"/>
+              <foreground color="-12236470"/>
+            </properties>
           </component>
         </children>
       </grid>
@@ -40,7 +49,10 @@
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <background color="-14538708"/>
+          <foreground color="-4473925"/>
+        </properties>
         <border type="none"/>
         <children>
           <grid id="61691" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -48,7 +60,9 @@
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-14538708"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="bc4a8" class="javax.swing.JLabel" binding="lblPassword">
@@ -56,7 +70,10 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <font name="Tahoma"/>
+                  <background color="-986896"/>
+                  <enabled value="true"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-3355444"/>
                   <text value="Password:"/>
                 </properties>
               </component>
@@ -66,7 +83,9 @@
                     <preferred-size width="150" height="-1"/>
                   </grid>
                 </constraints>
-                <properties/>
+                <properties>
+                  <foreground color="-12236470"/>
+                </properties>
               </component>
             </children>
           </grid>
@@ -75,7 +94,10 @@
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-14538708"/>
+              <foreground color="-14538708"/>
+            </properties>
             <border type="none"/>
             <children>
               <component id="608a3" class="javax.swing.JButton" binding="btnLogin">
@@ -83,7 +105,9 @@
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <font name="Tahoma"/>
+                  <background color="-14538708"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-3355444"/>
                   <text value="Login"/>
                 </properties>
               </component>

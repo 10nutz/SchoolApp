@@ -31,21 +31,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Visoiu</string>
+            <string>Silitra</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Andrei</string>
+            <string>Florin</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student0"/>
-            <int>3</int>
+            <int>1</int>
            </void>
           </void>
          </object>
@@ -86,14 +86,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Teacher0"/>
-            <string>CRETU </string>
+            <string>ALEXANDRU</string>
            </void>
           </void>
           <void class="schoolapp.Teacher" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Teacher0"/>
-            <string>NICOLAE CONSTANTIN</string>
+            <string>MARIAN</string>
            </void>
           </void>
          </object>
@@ -134,21 +134,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Suciu</string>
+            <string>Raulea</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Mihai</string>
+            <string>Andrei</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student1"/>
-            <int>4</int>
+            <int>2</int>
            </void>
           </void>
          </object>
@@ -189,14 +189,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>DIACONU</string>
+            <string>KRISTALY</string>
            </void>
           </void>
           <void class="schoolapp.Teacher" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>LAURENTIU</string>
+            <string>DOMINIC</string>
            </void>
           </void>
          </object>
@@ -237,21 +237,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Trifan</string>
+            <string>Vajaiac</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Ioan</string>
+            <string>Marius</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student2"/>
-            <int>1</int>
+            <int>2</int>
            </void>
           </void>
          </object>
