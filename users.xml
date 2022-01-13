@@ -7,14 +7,14 @@
      <string>userName</string>
      <void method="set">
       <object idref="User0"/>
-      <string>aaa</string>
+      <string>Popa</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
      <string>password</string>
      <void method="set">
       <object idref="User0"/>
-      <string>aaa</string>
+      <string>Ana-Maria</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
@@ -31,21 +31,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Silitra</string>
+            <string>Popa</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student0"/>
-            <string>Florin</string>
+            <string>Ana-Maria</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student0"/>
-            <int>1</int>
+            <int>4</int>
            </void>
           </void>
          </object>
@@ -62,14 +62,14 @@
      <string>userName</string>
      <void method="set">
       <object idref="User1"/>
-      <string>bbb</string>
+      <string>DANILA</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
      <string>password</string>
      <void method="set">
       <object idref="User1"/>
-      <string>bbb</string>
+      <string>ADRIAN</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
@@ -86,14 +86,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Teacher0"/>
-            <string>ALEXANDRU</string>
+            <string>DANILA</string>
            </void>
           </void>
           <void class="schoolapp.Teacher" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Teacher0"/>
-            <string>MARIAN</string>
+            <string>ADRIAN</string>
            </void>
           </void>
          </object>
@@ -110,14 +110,14 @@
      <string>userName</string>
      <void method="set">
       <object idref="User2"/>
-      <string>ccc</string>
+      <string>Spunei</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
      <string>password</string>
      <void method="set">
       <object idref="User2"/>
-      <string>ccc</string>
+      <string>Razvan</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
@@ -134,21 +134,21 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Raulea</string>
+            <string>Spunei</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student1"/>
-            <string>Andrei</string>
+            <string>Razvan</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student1"/>
-            <int>2</int>
+            <int>4</int>
            </void>
           </void>
          </object>
@@ -165,14 +165,14 @@
      <string>userName</string>
      <void method="set">
       <object idref="User3"/>
-      <string>ddd</string>
+      <string>URSUTIU</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
      <string>password</string>
      <void method="set">
       <object idref="User3"/>
-      <string>ddd</string>
+      <string>DORU</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
@@ -189,14 +189,14 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>KRISTALY</string>
+            <string>URSUTIU</string>
            </void>
           </void>
           <void class="schoolapp.Teacher" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Teacher1"/>
-            <string>DOMINIC</string>
+            <string>DORU</string>
            </void>
           </void>
          </object>
@@ -213,14 +213,14 @@
      <string>userName</string>
      <void method="set">
       <object idref="User4"/>
-      <string>eee</string>
+      <string>Cristea</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
      <string>password</string>
      <void method="set">
       <object idref="User4"/>
-      <string>eee</string>
+      <string>Florinela</string>
      </void>
     </void>
     <void class="schoolapp.User" method="getField">
@@ -237,20 +237,240 @@
            <string>first_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Vajaiac</string>
+            <string>Cristea</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>second_name</string>
            <void method="set">
             <object idref="Student2"/>
-            <string>Marius</string>
+            <string>Florinela</string>
            </void>
           </void>
           <void class="schoolapp.Student" method="getField">
            <string>group</string>
            <void method="set">
             <object idref="Student2"/>
+            <int>1</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User5">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User5"/>
+      <string>10nutz</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User5"/>
+      <string>ionut</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User5"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy3">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy3"/>
+         <object class="schoolapp.Student" id="Student3">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <string>Oprea</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <string>Ionut</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student3"/>
+            <int>3</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User6">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User6"/>
+      <string>adrian</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User6"/>
+      <string>patr</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User6"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy4">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy4"/>
+         <object class="schoolapp.Student" id="Student4">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <string>Patrascu</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <string>Nicolae</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student4"/>
+            <int>4</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User7">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User7"/>
+      <string>auras</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User7"/>
+      <string>auras</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User7"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy5">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy5"/>
+         <object class="schoolapp.Student" id="Student5">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <string>Paltanea</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <string>Auras</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student5"/>
+            <int>1</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User8">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User8"/>
+      <string>jarcau</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User8"/>
+      <string>jarcau</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User8"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy6">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy6"/>
+         <object class="schoolapp.Student" id="Student6">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <string>Jarcau</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student6"/>
+            <string>Stefan</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student6"/>
             <int>2</int>
            </void>
           </void>

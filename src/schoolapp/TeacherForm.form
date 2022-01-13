@@ -1,21 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="schoolapp.TeacherForm">
-  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="500" height="336"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-12236470"/>
+      <foreground color="-12236470"/>
+    </properties>
     <border type="none"/>
     <children>
-      <component id="2125b" class="javax.swing.JLabel">
+      <grid id="78c47" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Hello Teacher"/>
+          <background color="-14538708"/>
+          <foreground color="-14538708"/>
         </properties>
-      </component>
+        <border type="none"/>
+        <children>
+          <component id="745ff" class="javax.swing.JButton" binding="btnSeeCourses">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14538708"/>
+              <borderPainted value="false"/>
+              <foreground color="-3355444"/>
+              <icon value="schoolapp/icons/icons8_list_100px.png"/>
+              <text value=""/>
+              <toolTipText value="See Courses"/>
+            </properties>
+          </component>
+          <component id="e1823" class="javax.swing.JButton" binding="btnSeeStudents">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14538708"/>
+              <borderPainted value="false"/>
+              <foreground color="-3355444"/>
+              <icon value="schoolapp/icons/icons8_student_male_100px.png"/>
+              <text value=""/>
+              <toolTipText value="See Students"/>
+            </properties>
+          </component>
+          <component id="5133e" class="javax.swing.JButton" binding="btnGrade">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14538708"/>
+              <borderPainted value="false"/>
+              <foreground color="-3355444"/>
+              <icon value="schoolapp/icons/icons8_grades_100px.png"/>
+              <text value=""/>
+              <toolTipText value="Grade Students"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7ec4c" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14538708"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="50c3f">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14538708"/>
+              <foreground color="-14538708"/>
+              <opaque value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="626f3" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-14538708"/>
+                  <caretColor color="-14538708"/>
+                  <disabledTextColor color="-14538708"/>
+                  <font name="Roboto Light" size="22"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <grid id="2abae" binding="gradePanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14538708"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="74de5" class="javax.swing.JLabel" binding="lblCourse">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12236470"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-1"/>
+                  <text value="Course:"/>
+                </properties>
+              </component>
+              <component id="630f7" class="javax.swing.JTextField" binding="txtCourse">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="7082a" class="javax.swing.JLabel" binding="lblName">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14538708"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-1"/>
+                  <text value="Name:"/>
+                </properties>
+              </component>
+              <component id="b9d76" class="javax.swing.JTextField" binding="txtName">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="da66c" class="javax.swing.JLabel" binding="lblSurname">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14538708"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-1"/>
+                  <text value="Surname:"/>
+                </properties>
+              </component>
+              <component id="31f25" class="javax.swing.JTextField" binding="txtSurname">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="5de02" class="javax.swing.JLabel" binding="lblGrade">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14538708"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-1"/>
+                  <text value="Grade:"/>
+                </properties>
+              </component>
+              <component id="31aba" class="javax.swing.JTextField" binding="txtGrade">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <foreground color="-1"/>
+                </properties>
+              </component>
+              <component id="c6d99" class="javax.swing.JButton" binding="btnSave">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14538708"/>
+                  <font name="Roboto Light"/>
+                  <foreground color="-3355444"/>
+                  <text value="Save!"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
     </children>
   </grid>
 </form>

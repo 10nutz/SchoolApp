@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="16.0.2" class="java.beans.XMLDecoder">
+<java version="17.0.1" class="java.beans.XMLDecoder">
  <array class="schoolapp.Course" length="9">
   <void index="0">
    <object class="schoolapp.Course" id="Course0">
@@ -601,7 +601,372 @@
      <string>grades</string>
      <void method="set">
       <object idref="Course0"/>
-      <object class="java.util.HashMap"/>
+      <object class="java.util.HashMap">
+       <void method="put">
+        <object class="schoolapp.Student" id="Student22">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <string>Rotaruasd</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <string>Daria</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student23">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <string>Rotarua</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <string>Daria</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student24">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <string>Puia</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <string>Madalina</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student25">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <string>Puia</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <string>Madalina</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student26">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <string>Puia</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <string>Madalina</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student27">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <string>Puia</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <string>Madalina</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student28">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <string>Spunei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <string>Razvan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>7</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student29">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <string>Rotaru</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <string>Daria</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student30">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>5</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student31">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+        <int>5</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student32">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>5</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student33">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>5</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student34">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <string>Spunei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <string>Razvan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>7</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student35">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <string>Spunei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <string>Razvan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>7</int>
+       </void>
+      </object>
      </void>
     </void>
    </object>
@@ -635,50 +1000,50 @@
       <object idref="Course1"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object class="schoolapp.Student" id="Student22">
+        <object class="schoolapp.Student" id="Student36">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student22"/>
+           <object idref="Student36"/>
            <string>Trifan</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student22"/>
+           <object idref="Student36"/>
            <string>Ioan</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student22"/>
+           <object idref="Student36"/>
            <int>2</int>
           </void>
          </void>
         </object>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student23">
+        <object class="schoolapp.Student" id="Student37">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student23"/>
+           <object idref="Student37"/>
            <string>Popa</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student23"/>
+           <object idref="Student37"/>
            <string>Ana-Maria</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student23"/>
+           <object idref="Student37"/>
            <int>1</int>
           </void>
          </void>
@@ -688,25 +1053,25 @@
         <object idref="Student0"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student24">
+        <object class="schoolapp.Student" id="Student38">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student24"/>
+           <object idref="Student38"/>
            <string>Grigorescu</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student24"/>
+           <object idref="Student38"/>
            <string>Stefan</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student24"/>
+           <object idref="Student38"/>
            <int>2</int>
           </void>
          </void>
@@ -722,50 +1087,50 @@
         <object idref="Student6"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student25">
+        <object class="schoolapp.Student" id="Student39">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student25"/>
+           <object idref="Student39"/>
            <string>Rusu</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student25"/>
+           <object idref="Student39"/>
            <string>Victor</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student25"/>
+           <object idref="Student39"/>
            <int>2</int>
           </void>
          </void>
         </object>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student26">
+        <object class="schoolapp.Student" id="Student40">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student26"/>
+           <object idref="Student40"/>
            <string>Gribincea</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student26"/>
+           <object idref="Student40"/>
            <string>Valentina</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student26"/>
+           <object idref="Student40"/>
            <int>1</int>
           </void>
          </void>
@@ -787,50 +1152,50 @@
         <object idref="Student16"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student27">
+        <object class="schoolapp.Student" id="Student41">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student27"/>
+           <object idref="Student41"/>
            <string>Suciu</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student27"/>
+           <object idref="Student41"/>
            <string>Mihai</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student27"/>
+           <object idref="Student41"/>
            <int>1</int>
           </void>
          </void>
         </object>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student28">
+        <object class="schoolapp.Student" id="Student42">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student28"/>
+           <object idref="Student42"/>
            <string>Oprea</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student28"/>
+           <object idref="Student42"/>
            <string>Ionut</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student28"/>
+           <object idref="Student42"/>
            <int>3</int>
           </void>
          </void>
@@ -843,25 +1208,25 @@
         <object idref="Student21"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student29">
+        <object class="schoolapp.Student" id="Student43">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student29"/>
+           <object idref="Student43"/>
            <string>Stoian</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student29"/>
+           <object idref="Student43"/>
            <string>Emanuel</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student29"/>
+           <object idref="Student43"/>
            <int>3</int>
           </void>
          </void>
@@ -874,7 +1239,164 @@
      <string>grades</string>
      <void method="set">
       <object idref="Course1"/>
-      <object class="java.util.HashMap"/>
+      <object class="java.util.HashMap">
+       <void method="put">
+        <object class="schoolapp.Student" id="Student44">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student44"/>
+           <string>Trifan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student44"/>
+           <string>Ioan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student44"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student45">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student45"/>
+           <string>Visoiu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student45"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student45"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student46">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student46"/>
+           <string>Popa</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student46"/>
+           <string>Ana-Maria</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student46"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student47">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student47"/>
+           <string>Cucu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student47"/>
+           <string>Ioana</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student47"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student48">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student48"/>
+           <string>Coca</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student48"/>
+           <string>Paul</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student48"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student49">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student49"/>
+           <string>Oprea</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student49"/>
+           <string>Ionut</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student49"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+      </object>
      </void>
     </void>
    </object>
@@ -923,28 +1445,28 @@
       <object idref="Course2"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student22"/>
+        <object idref="Student36"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student30">
+        <object class="schoolapp.Student" id="Student50">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student30"/>
+           <object idref="Student50"/>
            <string>Istudor</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student30"/>
+           <object idref="Student50"/>
            <string>Cristian</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student30"/>
+           <object idref="Student50"/>
            <int>4</int>
           </void>
          </void>
@@ -954,7 +1476,7 @@
         <object idref="Student0"/>
        </void>
        <void method="add">
-        <object idref="Student24"/>
+        <object idref="Student38"/>
        </void>
        <void method="add">
         <object idref="Student2"/>
@@ -969,28 +1491,28 @@
         <object idref="Student9"/>
        </void>
        <void method="add">
-        <object idref="Student26"/>
+        <object idref="Student40"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student31">
+        <object class="schoolapp.Student" id="Student51">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student31"/>
+           <object idref="Student51"/>
            <string>Paltanea</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student31"/>
+           <object idref="Student51"/>
            <string>Auras</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student31"/>
+           <object idref="Student51"/>
            <int>1</int>
           </void>
          </void>
@@ -1003,25 +1525,25 @@
         <object idref="Student17"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student32">
+        <object class="schoolapp.Student" id="Student52">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student32"/>
+           <object idref="Student52"/>
            <string>Damian</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student32"/>
+           <object idref="Student52"/>
            <string>Maria</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student32"/>
+           <object idref="Student52"/>
            <int>1</int>
           </void>
          </void>
@@ -1071,53 +1593,53 @@
       <object idref="Course3"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student22"/>
+        <object idref="Student36"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student33">
+        <object class="schoolapp.Student" id="Student53">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student33"/>
+           <object idref="Student53"/>
            <string>Budau</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student33"/>
+           <object idref="Student53"/>
            <string>David</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student33"/>
+           <object idref="Student53"/>
            <int>1</int>
           </void>
          </void>
         </object>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student34">
+        <object class="schoolapp.Student" id="Student54">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student34"/>
+           <object idref="Student54"/>
            <string>Milea</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student34"/>
+           <object idref="Student54"/>
            <string>Daniel</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student34"/>
+           <object idref="Student54"/>
            <int>4</int>
           </void>
          </void>
@@ -1130,25 +1652,25 @@
         <object idref="Student6"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student35">
+        <object class="schoolapp.Student" id="Student55">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student35"/>
+           <object idref="Student55"/>
            <string>Silitra</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student35"/>
+           <object idref="Student55"/>
            <string>Florin</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student35"/>
+           <object idref="Student55"/>
            <int>1</int>
           </void>
          </void>
@@ -1164,25 +1686,25 @@
         <object idref="Student9"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student36">
+        <object class="schoolapp.Student" id="Student56">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student36"/>
+           <object idref="Student56"/>
            <string>Cristea</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student36"/>
+           <object idref="Student56"/>
            <string>Florinela</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student36"/>
+           <object idref="Student56"/>
            <int>2</int>
           </void>
          </void>
@@ -1192,7 +1714,7 @@
         <object idref="Student10"/>
        </void>
        <void method="add">
-        <object idref="Student31"/>
+        <object idref="Student51"/>
        </void>
        <void method="add">
         <object idref="Student12"/>
@@ -1204,38 +1726,38 @@
         <object idref="Student14"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student37">
+        <object class="schoolapp.Student" id="Student57">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student37"/>
+           <object idref="Student57"/>
            <string>Andrei</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student37"/>
+           <object idref="Student57"/>
            <string>Mihai</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student37"/>
+           <object idref="Student57"/>
            <int>3</int>
           </void>
          </void>
         </object>
        </void>
        <void method="add">
-        <object idref="Student32"/>
+        <object idref="Student52"/>
        </void>
        <void method="add">
         <object idref="Student17"/>
        </void>
        <void method="add">
-        <object idref="Student28"/>
+        <object idref="Student42"/>
        </void>
        <void method="add">
         <object idref="Student18"/>
@@ -1256,7 +1778,346 @@
      <string>grades</string>
      <void method="set">
       <object idref="Course3"/>
-      <object class="java.util.HashMap"/>
+      <object class="java.util.HashMap">
+       <void method="put">
+        <object class="schoolapp.Student" id="Student58">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student58"/>
+           <string>Trifan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student58"/>
+           <string>Ioan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student58"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student59">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student59"/>
+           <string>Budau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student59"/>
+           <string>David</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student59"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student60">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student60"/>
+           <string>Milea</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student60"/>
+           <string>Daniel</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student60"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student61">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student61"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student61"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student61"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student62">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student62"/>
+           <string>Solomon</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student62"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student62"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student63">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student63"/>
+           <string>Silitra</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student63"/>
+           <string>Florin</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student63"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student64">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student64"/>
+           <string>Ionita</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student64"/>
+           <string>Cezar</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student64"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student65">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student65"/>
+           <string>Raulea</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student65"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student65"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student66">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student66"/>
+           <string>Paltanea</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student66"/>
+           <string>Auras</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student66"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student67">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student67"/>
+           <string>Stanculescu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student67"/>
+           <string>Daniel</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student67"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student68">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student68"/>
+           <string>Cucu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student68"/>
+           <string>Ioana</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student68"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+        <int>9</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student69">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student69"/>
+           <string>Pascociu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student69"/>
+           <string>Andreea</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student69"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+       <void method="put">
+        <object class="schoolapp.Student" id="Student70">
+         <void class="schoolapp.Student" method="getField">
+          <string>first_name</string>
+          <void method="set">
+           <object idref="Student70"/>
+           <string>Maracineanu</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>second_name</string>
+          <void method="set">
+           <object idref="Student70"/>
+           <string>Constantin</string>
+          </void>
+         </void>
+         <void class="schoolapp.Student" method="getField">
+          <string>group</string>
+          <void method="set">
+           <object idref="Student70"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+        <int>6</int>
+       </void>
+      </object>
      </void>
     </void>
    </object>
@@ -1305,13 +2166,13 @@
       <object idref="Course4"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student33"/>
+        <object idref="Student53"/>
        </void>
        <void method="add">
         <object idref="Student0"/>
        </void>
        <void method="add">
-        <object idref="Student34"/>
+        <object idref="Student54"/>
        </void>
        <void method="add">
         <object idref="Student2"/>
@@ -1323,52 +2184,52 @@
         <object idref="Student6"/>
        </void>
        <void method="add">
-        <object idref="Student35"/>
+        <object idref="Student55"/>
        </void>
        <void method="add">
         <object idref="Student7"/>
        </void>
        <void method="add">
-        <object idref="Student36"/>
+        <object idref="Student56"/>
        </void>
        <void method="add">
-        <object idref="Student25"/>
+        <object idref="Student39"/>
        </void>
        <void method="add">
-        <object idref="Student26"/>
+        <object idref="Student40"/>
        </void>
        <void method="add">
-        <object idref="Student31"/>
+        <object idref="Student51"/>
        </void>
        <void method="add">
-        <object idref="Student27"/>
+        <object idref="Student41"/>
        </void>
        <void method="add">
         <object idref="Student16"/>
        </void>
        <void method="add">
-        <object idref="Student37"/>
+        <object idref="Student57"/>
        </void>
        <void method="add">
-        <object class="schoolapp.Student" id="Student38">
+        <object class="schoolapp.Student" id="Student71">
          <void class="schoolapp.Student" method="getField">
           <string>first_name</string>
           <void method="set">
-           <object idref="Student38"/>
+           <object idref="Student71"/>
            <string>Bruma</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>second_name</string>
           <void method="set">
-           <object idref="Student38"/>
+           <object idref="Student71"/>
            <string>Daniel</string>
           </void>
          </void>
          <void class="schoolapp.Student" method="getField">
           <string>group</string>
           <void method="set">
-           <object idref="Student38"/>
+           <object idref="Student71"/>
            <int>3</int>
           </void>
          </void>
@@ -1378,10 +2239,10 @@
         <object idref="Student17"/>
        </void>
        <void method="add">
-        <object idref="Student32"/>
+        <object idref="Student52"/>
        </void>
        <void method="add">
-        <object idref="Student28"/>
+        <object idref="Student42"/>
        </void>
        <void method="add">
         <object idref="Student18"/>
@@ -1396,7 +2257,7 @@
         <object idref="Student21"/>
        </void>
        <void method="add">
-        <object idref="Student29"/>
+        <object idref="Student43"/>
        </void>
       </object>
      </void>
@@ -1454,13 +2315,13 @@
       <object idref="Course5"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student26"/>
+        <object idref="Student40"/>
        </void>
        <void method="add">
-        <object idref="Student30"/>
+        <object idref="Student50"/>
        </void>
        <void method="add">
-        <object idref="Student31"/>
+        <object idref="Student51"/>
        </void>
        <void method="add">
         <object idref="Student13"/>
@@ -1469,10 +2330,10 @@
         <object idref="Student1"/>
        </void>
        <void method="add">
-        <object idref="Student32"/>
+        <object idref="Student52"/>
        </void>
        <void method="add">
-        <object idref="Student28"/>
+        <object idref="Student42"/>
        </void>
        <void method="add">
         <object idref="Student18"/>
@@ -1481,7 +2342,7 @@
         <object idref="Student21"/>
        </void>
        <void method="add">
-        <object idref="Student36"/>
+        <object idref="Student56"/>
        </void>
        <void method="add">
         <object idref="Student9"/>
@@ -1527,7 +2388,7 @@
       <object idref="Course6"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student22"/>
+        <object idref="Student36"/>
        </void>
        <void method="add">
         <object idref="Student3"/>
@@ -1539,13 +2400,13 @@
         <object idref="Student9"/>
        </void>
        <void method="add">
-        <object idref="Student25"/>
+        <object idref="Student39"/>
        </void>
        <void method="add">
         <object idref="Student10"/>
        </void>
        <void method="add">
-        <object idref="Student26"/>
+        <object idref="Student40"/>
        </void>
        <void method="add">
         <object idref="Student12"/>
@@ -1554,7 +2415,7 @@
         <object idref="Student13"/>
        </void>
        <void method="add">
-        <object idref="Student37"/>
+        <object idref="Student57"/>
        </void>
        <void method="add">
         <object idref="Student17"/>
@@ -1563,22 +2424,22 @@
         <object idref="Student18"/>
        </void>
        <void method="add">
-        <object idref="Student29"/>
+        <object idref="Student43"/>
        </void>
        <void method="add">
-        <object idref="Student33"/>
+        <object idref="Student53"/>
        </void>
        <void method="add">
-        <object idref="Student23"/>
+        <object idref="Student37"/>
        </void>
        <void method="add">
         <object idref="Student0"/>
        </void>
        <void method="add">
-        <object idref="Student34"/>
+        <object idref="Student54"/>
        </void>
        <void method="add">
-        <object idref="Student24"/>
+        <object idref="Student38"/>
        </void>
        <void method="add">
         <object idref="Student5"/>
@@ -1596,10 +2457,10 @@
         <object idref="Student15"/>
        </void>
        <void method="add">
-        <object idref="Student27"/>
+        <object idref="Student41"/>
        </void>
        <void method="add">
-        <object idref="Student28"/>
+        <object idref="Student42"/>
        </void>
        <void method="add">
         <object idref="Student19"/>
@@ -1660,25 +2521,25 @@
       <object idref="Course7"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student25"/>
+        <object idref="Student39"/>
        </void>
        <void method="add">
-        <object idref="Student22"/>
+        <object idref="Student36"/>
        </void>
        <void method="add">
-        <object idref="Student26"/>
+        <object idref="Student40"/>
        </void>
        <void method="add">
-        <object idref="Student31"/>
+        <object idref="Student51"/>
        </void>
        <void method="add">
-        <object idref="Student23"/>
+        <object idref="Student37"/>
        </void>
        <void method="add">
         <object idref="Student14"/>
        </void>
        <void method="add">
-        <object idref="Student27"/>
+        <object idref="Student41"/>
        </void>
        <void method="add">
         <object idref="Student16"/>
@@ -1693,7 +2554,7 @@
         <object idref="Student18"/>
        </void>
        <void method="add">
-        <object idref="Student29"/>
+        <object idref="Student43"/>
        </void>
       </object>
      </void>
@@ -1736,10 +2597,10 @@
       <object idref="Course8"/>
       <object class="java.util.HashSet">
        <void method="add">
-        <object idref="Student23"/>
+        <object idref="Student37"/>
        </void>
        <void method="add">
-        <object idref="Student34"/>
+        <object idref="Student54"/>
        </void>
        <void method="add">
         <object idref="Student0"/>
@@ -1754,10 +2615,10 @@
         <object idref="Student5"/>
        </void>
        <void method="add">
-        <object idref="Student36"/>
+        <object idref="Student56"/>
        </void>
        <void method="add">
-        <object idref="Student31"/>
+        <object idref="Student51"/>
        </void>
        <void method="add">
         <object idref="Student13"/>
@@ -1769,25 +2630,25 @@
         <object idref="Student14"/>
        </void>
        <void method="add">
-        <object idref="Student27"/>
+        <object idref="Student41"/>
        </void>
        <void method="add">
-        <object idref="Student37"/>
+        <object idref="Student57"/>
        </void>
        <void method="add">
-        <object idref="Student38"/>
+        <object idref="Student71"/>
        </void>
        <void method="add">
         <object idref="Student17"/>
        </void>
        <void method="add">
-        <object idref="Student28"/>
+        <object idref="Student42"/>
        </void>
        <void method="add">
         <object idref="Student20"/>
        </void>
        <void method="add">
-        <object idref="Student29"/>
+        <object idref="Student43"/>
        </void>
       </object>
      </void>

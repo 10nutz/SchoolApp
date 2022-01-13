@@ -1,12 +1,17 @@
 package schoolapp;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CoursesManager {
 	List<Course> courses;
-	
-	private Course search(Course aCourse) throws Exception {
+
+    public CoursesManager(Course[] courses_aux) {
+		this.courses = Arrays.asList(courses_aux);
+    }
+
+    private Course search(Course aCourse) throws Exception {
 		int i = courses.indexOf(aCourse);
 		if ( i != -1 ) {
 			return courses.get(i);
@@ -83,6 +88,14 @@ public class CoursesManager {
 		}
 		float average = count == 0 ? 0 : sum / (float)count; 
 		System.out.println("The average grade given by the teacher: " + tch.formatForDisplay() + " is: " + average );
+	}
+
+	public void reportAllTeacherCourses(Teacher tch){
+		for( Course c : courses) {
+			if (c.teacher == tch){
+				c.SeeCourseName();
+			}
+		}
 	}
 	
 }

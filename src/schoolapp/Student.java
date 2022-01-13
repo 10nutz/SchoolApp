@@ -18,7 +18,7 @@ public class Student implements  java.lang.Comparable<Student>{
 	
 	@Override
 	public String toString() {
-		return "\nStudent first name: " + first_name + ", second name:" + second_name + ", group:" + group;
+		return "\n" + first_name + "," + second_name + ",group:" + group;
 	}
 
 
