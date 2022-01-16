@@ -6,7 +6,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TeacherForm {
-    public TeacherForm() {
+    public TeacherForm(JFrame owner) {
+        this.owner = owner;
         txtCourse.setBackground(Color.GRAY);
         txtName.setBackground(Color.GRAY);
         txtSurname.setBackground(Color.GRAY);
@@ -85,6 +86,16 @@ public class TeacherForm {
                 }
             }
         });
+        btnBackHome.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(e.getSource() == btnBackHome){
+                    JOptionPane.showMessageDialog(null, "Back to login!");
+                    mainPanel.setVisible(false);
+                    owner.setContentPane(new LoginForm(owner).getMainPanel());
+                }
+            }
+        });
     }
 
     public JPanel getPanel1() {
@@ -106,4 +117,6 @@ public class TeacherForm {
     private JLabel lblSurname;
     private JLabel lblGrade;
     private JPanel gradePanel;
+    private JButton btnBackHome;
+    private JFrame owner;
 }

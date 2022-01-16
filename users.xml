@@ -482,5 +482,60 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User9">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User9"/>
+      <string>coca</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User9"/>
+      <string>paul</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User9"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy7">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy7"/>
+         <object class="schoolapp.Student" id="Student7">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <string>Coca</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <string>Paul</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student7"/>
+            <int>1</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
  </object>
 </java>

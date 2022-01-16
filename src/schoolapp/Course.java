@@ -7,6 +7,7 @@ import java.util.Set;
 public class Course {
 	public String name;
 	public String description;
+	public int year;
 	public Teacher teacher;
 	public Set<Student> students;
 	public HashMap<Student, Integer> grades;
@@ -15,6 +16,15 @@ public class Course {
 	public Course(String name, String descr, Teacher tch, Set<Student> stud) {
 		this.name = name;
 		this.description = descr;
+		this.teacher = tch;
+		this.students = stud;
+		this.grades = new HashMap<Student, Integer>();
+	}
+
+	public Course(String name, String descr, int year, Teacher tch, Set<Student> stud) {
+		this.name = name;
+		this.description = descr;
+		this.year = year;
 		this.teacher = tch;
 		this.students = stud;
 		this.grades = new HashMap<Student, Integer>();

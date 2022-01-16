@@ -55,7 +55,7 @@ public class CoursesManager {
 		for( Course c: courses) {
 			System.out.println( c.name + " " + c.description);
 			try {
-				// this.reportStudentsOf(c);
+				//this.reportStudentsOf(c);
 			} catch (Exception e) {
 
 			}

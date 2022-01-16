@@ -22,9 +22,9 @@ public class LoginForm {
                         JOptionPane.showMessageDialog(null,"Login successfully");
                         mainPanel.setVisible(false);
                         if(Application.getInstance().currentUser.menuStrategy.getAccountType()== UserAccountType.STUDENT)
-                            owner.setContentPane(new StudentForm().getMain());
+                            owner.setContentPane(new StudentForm(owner).getMain());
                         else
-                            owner.setContentPane(new TeacherForm().getPanel1() );
+                            owner.setContentPane(new TeacherForm(owner).getPanel1() );
                     } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null,ex.getMessage());
                     }

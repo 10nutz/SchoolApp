@@ -57,9 +57,10 @@ public class HardcodedDataManager implements iDataLoader {
 		String description = "course description";
 		ArrayList<Course> courses = new ArrayList<>();
 		for (String CourseName : course) {
+			int yr = 1 + rand.nextInt(4);
 			Set<Student> studentsData = createRandomSetOfStudents();
 			Teacher tch = dataSetOfTeacher[rand.nextInt(dataSetOfTeacher.length)];
-			Course c = new Course(CourseName, description, tch, studentsData);
+			Course c = new Course(CourseName, description, yr, tch, studentsData);
 			courses.add(c);
 		}
 		return courses.toArray(new Course[courses.size()]);
