@@ -26,7 +26,7 @@ public class HardcodedDataManager implements iDataLoader {
 		
 		Student students[] = new Student[first_name.length];
 		for (int i = 0; i < first_name.length;i++) {
-			Student s = new Student(first_name[i], second_name[i], 1 + rand.nextInt(4));
+			Student s = new Student(first_name[i], second_name[i], 1 + rand.nextInt(4),1 + rand.nextInt(4));
 			students[i] = s;
 		}
 		return students;

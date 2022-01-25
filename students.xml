@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="16.0.2" class="java.beans.XMLDecoder">
+<java version="17.0.1" class="java.beans.XMLDecoder">
  <array class="schoolapp.Student" length="39">
   <void index="0">
    <object class="schoolapp.Student" id="Student0">
@@ -21,7 +21,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student0"/>
-      <int>4</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student0"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -44,6 +51,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student1"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student1"/>
       <int>2</int>
@@ -71,7 +85,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student2"/>
-      <int>1</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student2"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -96,7 +117,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student3"/>
-      <int>2</int>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student3"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -119,6 +147,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student4"/>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student4"/>
       <int>4</int>
@@ -146,6 +181,13 @@
      <string>group</string>
      <void method="set">
       <object idref="Student5"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student5"/>
       <int>2</int>
      </void>
     </void>
@@ -171,7 +213,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student6"/>
-      <int>3</int>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student6"/>
+      <int>2</int>
      </void>
     </void>
    </object>
@@ -199,6 +248,13 @@
       <int>2</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student7"/>
+      <int>4</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="8">
@@ -221,7 +277,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student8"/>
-      <int>2</int>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student8"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -244,6 +307,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student9"/>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student9"/>
       <int>1</int>
@@ -271,7 +341,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student10"/>
-      <int>4</int>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student10"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -299,6 +376,13 @@
       <int>4</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student11"/>
+      <int>1</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="12">
@@ -324,6 +408,13 @@
       <int>2</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student12"/>
+      <int>3</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="13">
@@ -346,7 +437,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student13"/>
-      <int>4</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student13"/>
+      <int>2</int>
      </void>
     </void>
    </object>
@@ -371,7 +469,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student14"/>
-      <int>2</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student14"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -396,7 +501,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student15"/>
-      <int>4</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student15"/>
+      <int>2</int>
      </void>
     </void>
    </object>
@@ -421,7 +533,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student16"/>
-      <int>3</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student16"/>
+      <int>4</int>
      </void>
     </void>
    </object>
@@ -446,7 +565,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student17"/>
-      <int>1</int>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student17"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -474,6 +600,13 @@
       <int>3</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student18"/>
+      <int>2</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="19">
@@ -496,7 +629,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student19"/>
-      <int>3</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student19"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -521,7 +661,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student20"/>
-      <int>4</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student20"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -546,7 +693,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student21"/>
-      <int>1</int>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student21"/>
+      <int>3</int>
      </void>
     </void>
    </object>
@@ -571,7 +725,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student22"/>
-      <int>4</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student22"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -596,7 +757,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student23"/>
-      <int>1</int>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student23"/>
+      <int>4</int>
      </void>
     </void>
    </object>
@@ -624,6 +792,13 @@
       <int>1</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student24"/>
+      <int>2</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="25">
@@ -646,7 +821,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student25"/>
-      <int>3</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student25"/>
+      <int>4</int>
      </void>
     </void>
    </object>
@@ -671,7 +853,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student26"/>
-      <int>2</int>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student26"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -696,7 +885,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student27"/>
-      <int>3</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student27"/>
+      <int>2</int>
      </void>
     </void>
    </object>
@@ -719,6 +915,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student28"/>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student28"/>
       <int>2</int>
@@ -749,6 +952,13 @@
       <int>4</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student29"/>
+      <int>3</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="30">
@@ -769,6 +979,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student30"/>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student30"/>
       <int>3</int>
@@ -796,7 +1013,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student31"/>
-      <int>4</int>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student31"/>
+      <int>2</int>
      </void>
     </void>
    </object>
@@ -819,6 +1043,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student32"/>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student32"/>
       <int>2</int>
@@ -849,6 +1080,13 @@
       <int>2</int>
      </void>
     </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student33"/>
+      <int>1</int>
+     </void>
+    </void>
    </object>
   </void>
   <void index="34">
@@ -869,6 +1107,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student34"/>
+      <int>3</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student34"/>
       <int>3</int>
@@ -896,7 +1141,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student35"/>
-      <int>3</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student35"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -921,7 +1173,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student36"/>
-      <int>3</int>
+      <int>2</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student36"/>
+      <int>1</int>
      </void>
     </void>
    </object>
@@ -944,6 +1203,13 @@
     </void>
     <void class="schoolapp.Student" method="getField">
      <string>group</string>
+     <void method="set">
+      <object idref="Student37"/>
+      <int>4</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
      <void method="set">
       <object idref="Student37"/>
       <int>3</int>
@@ -971,7 +1237,14 @@
      <string>group</string>
      <void method="set">
       <object idref="Student38"/>
-      <int>2</int>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="schoolapp.Student" method="getField">
+     <string>year</string>
+     <void method="set">
+      <object idref="Student38"/>
+      <int>3</int>
      </void>
     </void>
    </object>

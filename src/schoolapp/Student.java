@@ -6,6 +6,7 @@ public class Student implements  java.lang.Comparable<Student>{
 	public String first_name;
 	public String second_name;
 	public int group;
+	public int year;
 	
 	public Student() {}
 	
@@ -13,6 +14,13 @@ public class Student implements  java.lang.Comparable<Student>{
 		this.first_name = f_n;
 		this.second_name = s_n;
 		this.group = gr;
+	}
+
+	Student(String f_n, String s_n, int gr, int yr){
+		this.first_name = f_n;
+		this.second_name = s_n;
+		this.group = gr;
+		this.year = yr;
 	}
 	
 	

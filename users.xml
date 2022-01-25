@@ -537,5 +537,67 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="schoolapp.User" id="User10">
+    <void class="schoolapp.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User10"/>
+      <string>bd</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User10"/>
+      <string>bd</string>
+     </void>
+    </void>
+    <void class="schoolapp.User" method="getField">
+     <string>menuStrategy</string>
+     <void method="set">
+      <object idref="User10"/>
+      <object class="schoolapp.StudentStrategy" id="StudentStrategy8">
+       <void class="schoolapp.StudentStrategy" method="getField">
+        <string>student</string>
+        <void method="set">
+         <object idref="StudentStrategy8"/>
+         <object class="schoolapp.Student" id="Student8">
+          <void class="schoolapp.Student" method="getField">
+           <string>first_name</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <string>Bruma</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>second_name</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <string>Daniel</string>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>group</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <int>1</int>
+           </void>
+          </void>
+          <void class="schoolapp.Student" method="getField">
+           <string>year</string>
+           <void method="set">
+            <object idref="Student8"/>
+            <int>3</int>
+           </void>
+          </void>
+         </object>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
  </object>
 </java>
