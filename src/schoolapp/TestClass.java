@@ -77,12 +77,12 @@ public class TestClass {
 			System.out.println(e.getMessage());
 		}
 */
-		JFrame frame = new JFrame("Graphic User Interface");
+		/*JFrame frame = new JFrame("Graphic User Interface");
 		LoginForm loginForm = new LoginForm(frame);
 		frame.setContentPane(loginForm.getMainPanel());
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
-		frame.setVisible(true);
+		frame.setVisible(true);*/
 
         /*Scanner sc = new Scanner(System.in);
         Integer option = 0;
@@ -266,9 +266,9 @@ public class TestClass {
             }
         }
 */
-   /* NewThread t1 = new NewThread("Console");
+    NewThread t1 = new NewThread("Console");
     NewThread t2 = new NewThread("GUI");
     t1.start();
-    t2.start();*/
+    t2.start();
     }
 }

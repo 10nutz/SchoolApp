@@ -2512,11 +2512,11 @@
        </void>
        <void method="put">
         <object idref="Student20"/>
-        <int>4</int>
+        <int>1</int>
        </void>
        <void method="put">
         <object idref="Student38"/>
-        <int>3</int>
+        <int>4</int>
        </void>
       </object>
      </void>

@@ -5,6 +5,7 @@ import java.beans.XMLEncoder;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -64,32 +65,37 @@ public class NewThread extends Thread{
                         Application.getInstance().login(new User(username, password));
                         Settings.initApplication();
                         iDataLoader idt = Settings.dataLoaderHashMap.get(Settings.loadType);
-                        c_aux = new CoursesManager(idt.createCoursesData());
+                        c_aux = new CoursesManager(idt.createCoursesData().clone());
                         if (Application.getInstance().currentUser.menuStrategy.getAccountType() == UserAccountType.TEACHER) {
                             Integer op2=0;
+                            HashMap<String,String> info = (HashMap<String, String>) Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().clone();
                             while(op2 != null){
                                 SeeTeacherMenu();
                                 System.out.println("Your option:");
                                 op2 = sc.nextInt();
                                 if (op2 == 1) {
+                                    c_aux = new CoursesManager(idt.createCoursesData().clone());
                                     for (Course c : c_aux.courses) {
-                                        if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                                        if (info.containsKey(c.teacher.first_name)) {
                                             System.out.println(c.name);
                                         }
                                     }
                                 }else{
                                     if(op2 == 2){
+                                        c_aux = new CoursesManager(idt.createCoursesData().clone());
                                         for (Course c : c_aux.courses) {
-                                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                                            if (info.containsKey(c.teacher.first_name)) {
                                                 System.out.println("\n\n\t" + c.name + ":");
                                                 for (Student s : c.students)
                                                     System.out.print(s.toString());
                                             }
+                                            System.out.print("\n");
                                         }
                                     }else{
                                         if(op2 == 3){
+                                            c_aux = new CoursesManager(idt.createCoursesData().clone());
                                             for (Course c : c_aux.courses) {
-                                                if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                                                if (info.containsKey(c.teacher.first_name)) {
                                                     System.out.println("\n\n\t" + c.name + ":");
                                                     for (Student s : c.students)
                                                         System.out.print(s.toString() +" grade: " + c.grades.get(s));
@@ -106,7 +112,7 @@ public class NewThread extends Thread{
                                                 System.out.println("Grade:");
                                                 int grd = sc.nextInt();
                                                 for (Course c : c_aux.courses) {
-                                                    if (c.name.compareTo(cn) == 0 && Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                                                    if (c.name.compareTo(cn) == 0 && info.containsKey(c.teacher.first_name)) {
                                                         for (Student s : c.students) {
                                                             if (s.first_name.compareTo(sn) == 0 && s.second_name.compareTo(ss) == 0) {
                                                                 c.grades.put(new Student(sn,ss, s.group), Integer.valueOf(grd));
@@ -135,18 +141,20 @@ public class NewThread extends Thread{
                                 SeeStudentMenu();
                                 System.out.println("Your option:");
                                 op1 = sc.nextInt();
+                                HashMap<String,String> info = (HashMap<String, String>) Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().clone();
                                 if (op1 == 1) {
                                     for (Course c : c_aux.courses)
                                         for (Student s : c.students) {
-                                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                            if (info.containsKey(s.first_name)) {
                                                 System.out.println(c.name);
                                             }
                                         }
                                 } else {
                                     if (op1 == 2) {
+                                        c_aux = new CoursesManager(idt.createCoursesData().clone());
                                         for (Course c : c_aux.courses)
                                             for (Student s : c.students) {
-                                                if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                                if (info.containsKey(s.first_name)) {
                                                     System.out.println(c.name + ",grade: " + c.grades.get(s));
                                                 }
                                             }
@@ -154,12 +162,13 @@ public class NewThread extends Thread{
                                         if (op1 == 3) {
                                             int sum = 0;
                                             int nr = 0;
+                                            c_aux = new CoursesManager(idt.createCoursesData().clone());
                                             for (int i = 1; i <= 4; i++) {
                                                 System.out.println("\t Year " + i);
                                                 for (Course c : c_aux.courses) {
                                                     if (c.year == i) {
                                                         for (Student s : c.students) {
-                                                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                                            if (info.containsKey(s.first_name)) {
                                                                 System.out.println(c.name + ", grade: " + c.grades.get(s));
                                                             }
                                                         }
@@ -169,10 +178,11 @@ public class NewThread extends Thread{
                                             System.out.println("Choose year:");
                                             int yar = sc.nextInt();
                                             if (yar < 5) {
+                                                c_aux = new CoursesManager(idt.createCoursesData().clone());
                                                 for (Course c : c_aux.courses) {
                                                     if (c.year == yar) {
                                                         for (Student s : c.students) {
-                                                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                                            if (info.containsKey(s.first_name)) {
                                                                 sum = sum + c.grades.get(s);
                                                                 nr++;
                                                             }
@@ -186,9 +196,10 @@ public class NewThread extends Thread{
                                         } else {
                                             if (op1 == 4) {
                                                 try {
+                                                    c_aux = new CoursesManager(idt.createCoursesData().clone());
                                                     for (Course c : c_aux.courses)
                                                         for (Student s : c.students)
-                                                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                                            if (info.containsKey(s.first_name)) {
                                                                 if (c.grades.get(s) < 5)
                                                                     System.out.println(c.name);
                                                             }

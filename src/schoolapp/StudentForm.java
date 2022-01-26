@@ -4,20 +4,25 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
 
 public class StudentForm {
     public StudentForm(JFrame owner) {
         this.owner = owner;
         txtAverage.setBackground(Color.GRAY);
         averagePanel.setVisible(false);
+        HashMap<String,String> info = (HashMap<String, String>) Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().clone();
+        iDataLoader idt = Settings.dataLoaderHashMap.get(Settings.loadType);
+        c_aux = new CoursesManager(idt.createCoursesData().clone());
         btnSeeCourses.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 averagePanel.setVisible(false);
                 textArea1.setText("\n\t Your courses: \n");
-                for (Course c : Application.getInstance().courses_aux.courses) {
+                c_aux = new CoursesManager(idt.createCoursesData().clone());
+                for (Course c : c_aux.courses) {
                     for (Student s : c.students) {
-                        if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                        if (info.containsKey(s.first_name)) {
                             textArea1.append(c.name + "\n");
                         }
                     }
@@ -30,9 +35,10 @@ public class StudentForm {
                 if (e.getSource() == btnSeeGrades) {
                     averagePanel.setVisible(false);
                     textArea1.setText("\n\t Grades: \n");
-                    for (Course c : Application.getInstance().courses_aux.courses) {
+                    c_aux = new CoursesManager(idt.createCoursesData().clone());
+                    for (Course c : c_aux.courses) {
                         for (Student s : c.students) {
-                            if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                            if (info.containsKey(s.first_name)) {
                                 textArea1.append(c.name + ", grade: " + c.grades.get(s) + "\n");
                             }
                         }
@@ -48,10 +54,11 @@ public class StudentForm {
                     averagePanel.setVisible(true);
                     for (int i = 1; i <= 4; i++) {
                         textArea1.append("\n\t Year " + i + "\n");
-                        for (Course c : Application.getInstance().courses_aux.courses) {
+                        c_aux = new CoursesManager(idt.createCoursesData().clone());
+                        for (Course c : c_aux.courses) {
                             if (c.year == i) {
                                 for (Student s : c.students) {
-                                    if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                    if (info.containsKey(s.first_name)) {
                                         textArea1.append(c.name + ", grade: " + c.grades.get(s) + "\n");
                                     }
                                 }
@@ -68,10 +75,11 @@ public class StudentForm {
                     try {
                         int sum = 0;
                         int nr = 0;
-                        for (Course c : Application.getInstance().courses_aux.courses) {
+                        c_aux = new CoursesManager(idt.createCoursesData().clone());
+                        for (Course c : c_aux.courses) {
                             if (c.year == Integer.parseInt(txtAverage.getText())) {
                                 for (Student s : c.students) {
-                                    if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                    if (info.containsKey(s.first_name)) {
                                         sum = sum + c.grades.get(s);
                                         nr++;
                                     }
@@ -96,10 +104,11 @@ public class StudentForm {
                 if (e.getSource() == btnSeeFailedExams) {
                     textArea1.setText("\n\tFailed exams\n");
                     averagePanel.setVisible(false);
+                    c_aux = new CoursesManager(idt.createCoursesData().clone());
                     try {
-                        for (Course c : Application.getInstance().courses_aux.courses)
+                        for (Course c : c_aux.courses)
                             for (Student s : c.students)
-                                if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(s.first_name)) {
+                                if (info.containsKey(s.first_name)) {
                                     if (c.grades.get(s) < 5)
                                         textArea1.append(c.name);
                                 }
@@ -137,4 +146,5 @@ public class StudentForm {
     private JPanel averagePanel;
     private JLabel lblAverage;
     private JFrame owner;
+    private CoursesManager c_aux;
 }

@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
 
 public class TeacherForm {
     public TeacherForm(JFrame owner) {
@@ -13,6 +14,9 @@ public class TeacherForm {
         txtSurname.setBackground(Color.GRAY);
         txtGrade.setBackground(Color.GRAY);
         gradePanel.setVisible(false);
+        HashMap<String,String> info = (HashMap<String, String>) Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().clone();
+        iDataLoader idt = Settings.dataLoaderHashMap.get(Settings.loadType);
+        CoursesManager c_aux = new CoursesManager(idt.createCoursesData().clone());
         btnSeeCourses.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -20,8 +24,8 @@ public class TeacherForm {
                     gradePanel.setVisible(false);
                     textArea1.setForeground(Color.WHITE);
                     textArea1.setText("\nYour courses:\n\n");
-                    for (Course c : Application.getInstance().courses_aux.courses) {
-                        if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                    for (Course c : c_aux.courses) {
+                        if (info.containsKey(c.teacher.first_name)) {
                             textArea1.append(c.name + "\n");
                         }
                     }
@@ -35,8 +39,8 @@ public class TeacherForm {
                     gradePanel.setVisible(false);
                     textArea1.setText("");
                     textArea1.setForeground(Color.WHITE);
-                    for (Course c : Application.getInstance().courses_aux.courses) {
-                        if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                    for (Course c : c_aux.courses) {
+                        if (info.containsKey(c.teacher.first_name)) {
                             textArea1.append("\n\n\t" + c.name + ":");
                             for (Student s : c.students)
                                 textArea1.append("\t" + s.toString());
@@ -51,8 +55,8 @@ public class TeacherForm {
                 gradePanel.setVisible(true);
                 textArea1.setText("");
                 textArea1.setForeground(Color.WHITE);
-                for (Course c : Application.getInstance().courses_aux.courses) {
-                    if (Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                for (Course c : c_aux.courses) {
+                    if (info.containsKey(c.teacher.first_name)) {
                         textArea1.append("\n\n\t" + c.name + ":");
                         for (Student s : c.students)
                             textArea1.append("\t" + s.toString() + ", grade: " + c.grades.get(s));
@@ -65,8 +69,8 @@ public class TeacherForm {
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == btnSave) {
                     try {
-                        for (Course c : Application.getInstance().courses_aux.courses) {
-                            if (c.name.compareTo(txtCourse.getText()) == 0 && Application.getInstance().currentUser.menuStrategy.getAccountHolderInformation().containsKey(c.teacher.first_name)) {
+                        for (Course c : c_aux.courses) {
+                            if (c.name.compareTo(txtCourse.getText()) == 0 && info.containsKey(c.teacher.first_name)) {
                                 for (Student s : c.students) {
                                     if (s.first_name.compareTo(txtName.getText()) == 0 && s.second_name.compareTo(txtSurname.getText()) == 0) {
                                         c.grades.put(new Student(txtName.getText(),txtSurname.getText(), s.group), Integer.valueOf(txtGrade.getText()));
@@ -76,8 +80,8 @@ public class TeacherForm {
                             }
                         }
                         iDisplayManager idm = Settings.displayHashMap.get(DISPLAY_TYPE.FILE);
-                        Course[] caux = new Course[Application.getInstance().courses_aux.courses.size()];
-                        Application.getInstance().courses_aux.courses.toArray(caux);
+                        Course[] caux = new Course[c_aux.courses.size()];
+                        c_aux.courses.toArray(caux);
                         idm.displayCourses(caux);
                     } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null,"Incorrect data!");
